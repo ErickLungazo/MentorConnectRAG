@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+yooh/
+venv/
+env/
+*.egg-info/
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# Flask and Python logs
+instance/
+*.log
+*.out
+*.err
+logs/
+*.sqlite3
+*.db
+*.sqlite
+
+# Environment variables and configuration
+.env
+*.env
+config.py
+settings.py
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled Python files
+*.so
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Test and debug artifacts
+.tox/
+.nox/
+dist/
+build/
+.eggs/
+
+# Docker and Kubernetes
+docker-compose.override.yml
+.dockerignore
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+
+# MacOS files
+.DS_Store
+
+# Node.js dependencies (if frontend is included)
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Static and media files
+staticfiles/
+media/
+uploads/
